@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Barlow Semi Condensed'
+}
+
+:root {
+    --purple: #733FCB;
+    --gray: #48556A;
+    --white: #FFFFFF;
+    --lightwhite: #CFCFCF;
+
+
+
+}
+body{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--white);
+}
+
+h3{
+    font-weight: 500px;
+    font-size: 13px;
+    color: var(--white);
+}
+
+h4{
+    font-weight: 500px;
+    font-size: 11px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+p{
+font-weight: 500;
+font-size: 13px;
+color: var(--lightwhite);
+mix-blend-mode: normal;
+opacity: 0.7;
+}
+
+.container{
+    border: 1px solid red;
+    width: 345px;
+    margin: auto;
+}
+
+.quote{
+    background-image: url(./asset/pic.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+
+.item {
+    border: 2px solid black;
+    width: 100%;
+    padding: 25px 32px 32px 32px;
+    background-color: var(--purple);
+    border-radius: 8px;
+}
+
+.container .item .avatar-div {
+display: flex;
+gap: 17px;
+}
+
+.container .item .avatar-title {
+    margin-top: 18px;
+}
+
+.container .item .avatar-desc{
+    margin-top: 40px;
+}
+
+.darkgray{
+    background-color: var(--gray);
+}
+
+.white {
+    background-color: var(--white);
+   
+}
+
+.colorgray {
+    color: var(--gray);
+}
+
+.colorgrayO {
+    color: #48556A;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
